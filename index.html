@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/038%20Grid.css">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/style8.css">
     <link rel="stylesheet" type="text/css" href="css/menu8.css">
-    <link rel="stylesheet" type="text/css" href="queries8.css">
+    <link rel="stylesheet" type="text/css" href="css/queries8.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https:code.jquery.com/jquery-3.3.1.js"></script>
+    
     <title>Bethany's pie</title>
 </head>
 <body>
@@ -22,9 +24,9 @@
                 <div>
                     <ul>
                         <li> <a  href="#">Home</a></li>
-                        <li> <a href="#">Product</a></li>
-                        <li> <a href="#">Blog</a></li>
-                        <li> <a href="#">Contact Us</a></li>
+                        <li> <a href="#products">Product</a></li>
+                        <li> <a href="#us">Blog</a></li>
+                        <li> <a href="#contact-us">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,9 +39,9 @@
               <img class="img" src="css/images-20210802T205231Z-001/images/bethanylogo.png" alt="bethanylogo">
               <ul class="list">
                 <li> <a href="#">Home</a></li>
-                <li> <a href="#">Product</a></li>
-                <li> <a href="#">Blog</a></li>
-                <li> <a href="#">Contact Us</a></li>
+                <li> <a href="#products">Product</a></li>
+                <li> <a href="#us">Blog</a></li>
+                <li> <a href="#contact-us">Contact Us</a></li>
               </ul>
             </div> 
       
@@ -48,7 +50,7 @@
             <h1> It's not just pie,<br> but Bethany’s pie</h1>
           </div>
     </header>
-    <section class="US">
+    <section class="US" id="us">
         <h2>Get a peak about us</h2>
         <p>
             For many years, Bethany has been baking the most delicous pies at her home. In 2013, we opened our first store in Brussel (Belgium) in a cosy little street near the Grand Market. People from all over the world fell in love with the soft cakes, heavenly cheese cakes, spicy apple pies...
@@ -59,7 +61,7 @@ In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved 
         <img class="image" src="css/images-20210802T205231Z-001/images/bethanysmall.jpg" alt="bethany's pix">
     </section>
 
-    <section class="pies clearfix">
+    <section class="pies clearfix" id="products">
 
 
         <div class="pie1 clearfix">
@@ -102,7 +104,7 @@ In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved 
        
     </section>
    
-      <section class="section-form">
+      <section class="section-form" id="contact-us">
         <div class="row">
           <h2>Contact Us</h2>
         </div>
@@ -199,14 +201,16 @@ In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved 
                 <li><a href="#">Credits</a></li>
             </ul>
           <p>
-            Copyright &copy; 2021 by Klint. All rights reserved
+            Copyright &copy; 2021 by Klint. All rights reserved.
           </p>
         </div>
     
     
       </footer>
-      
-   
+    
+  
+    
+  <script src="script.js"></script>
 </body>
 </html>
 

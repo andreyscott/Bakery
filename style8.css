@@ -15,8 +15,7 @@
 }
 
 
-html,
-body {
+html {
 
     background-color: #fff;
     color: #555;
@@ -25,8 +24,6 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    width: 100%;
-    scroll-behavior: smooth;
 } 
 
 .clearfix {zoom: 1}
@@ -49,17 +46,16 @@ section{
 header {
 
      
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images-20210802T205231Z-001/images/products/cheesecake.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(css/images-20210802T205231Z-001/images/products/cheesecake.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed ;
-    width: 100%;
-    overflow-x: hidden;
     
 
 
 }
+
 
 /*navigations*/
 
@@ -179,8 +175,6 @@ h2:after{
 .US{
   background-color: #f4f4f4;
   position: relative;
-  width: 100%;
-  overflow-x: hidden;
   
 }
 
@@ -192,7 +186,6 @@ h2:after{
     padding: 13%;
     font-style: italic;
     width: 70%;
-    margin-left: 5%;
 }
 
 .US p:before{
@@ -200,17 +193,17 @@ h2:after{
     font-size: 400%;
     display: block;
     position: absolute;
-    left: 15%;
+    left: 10%;
     top: 25%;
    
 }
 
 .image{
-    width: 90px;
+    width: 100px;
     border-radius: 80%;
     position: absolute;
-    bottom: 20%;
-    left: 18%;
+    bottom:18%;
+    left: 12%;
 
 }
 
@@ -218,8 +211,6 @@ h2:after{
 .pies{
     background-color: black;
     padding: 0px;
-    width: 100%;
-    overflow-x: hidden;
     
 }
 
@@ -444,9 +435,8 @@ h2:after{
 /*SECTION FORM*/
 
 .section-form{
+    overflow: hidden;
     background-color: #f4f4f4;
-    width: 100%;
-    overflow-x: hidden;
 }
 label{
     width: 60%;
@@ -509,8 +499,6 @@ input[type=submit] :active  {
 footer{
     background-color: #333;
     padding: 50px;
-    width: 100%;
-    overflow-x: hidden;
 }
 
 .footer-nav{

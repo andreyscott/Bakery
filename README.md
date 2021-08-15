@@ -1,2 +1,0 @@
-# Bakery
-A bakery website 
